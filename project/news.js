@@ -41,7 +41,7 @@ class UI{
     }
 }
 
-let a = $(".menu ul li a");
+let a = $(".menu ul li .api");
 
 a.click((e)=>{
     sessionStorage.clear();
