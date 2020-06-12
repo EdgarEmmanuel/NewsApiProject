@@ -8,6 +8,10 @@ class News_Controler{
         include_once("afrique.php");
     }
 
+    public function getPageOrient(){
+        include_once("Orient.php");
+    }
+
     public function getPageAccueil(){
         include_once("accueil.php");
     }

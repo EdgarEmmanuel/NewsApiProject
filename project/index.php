@@ -21,6 +21,9 @@ if(isset($_GET["code"])){
         case "Amerique" : 
             $contrrol->getPageAmerique();
         break;
+        case "Orient": 
+            $contrrol->getPageOrient();
+        break;
     }
 }else{
     $contrrol->getPageAccueil();

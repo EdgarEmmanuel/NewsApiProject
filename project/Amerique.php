@@ -14,22 +14,13 @@ $title = "AMERIQUE | NEWS ";
    <div class="menu">
        <ul>
        <li>  </li>
-          <li> <a id="bg" class="api" href="">Bulgarie </a> </li>
-          <li> <a id="be" href="">Belgique </a> </li>
+          <li> <a id="bg" class="api" href="">Etats-Unis </a> </li>
            <li><a id="br" href="">Bresil </a></li>
            <li> <a id="ar" href="">Argentine </a> </li>
-           <li><a id="au" href="">Australie </a></li>
+           <li><a id="mx" href="">Mexique </a></li>
            <li><a id="cu" href="">Cuba</a></li>
-           <li><a id="cn" href="">Chine</a></li>
            <li><a id="co" href="">Colombie</a></li>
-           <li><a id="eg" href="">Egypt</a></li>
-           <li><a id="fr" href="">France</a></li>
-           <li><a id="hk" href="">Honk-Kong</a></li>
-           <li><a id="in" href="">India</a></li>
-           <li><a id="hu" href="">Hongrie</a></li>
-           <li><a id="de" href="">Allemagne</a></li>
-           <li><a id="il" href="">Israel</a></li>
-           <li><a id="jp" href="">Japon</a></li>
+           <li><a id="au" href="">Australie</a></li>
        </ul>
    </div>
 

@@ -26,6 +26,7 @@
             <a href="index.php?code=Europe">Europe </a>
             <a href="index.php?code=Asie">Asie</a>
             <a href="index.php?code=Amerique">Amerique </a>
+            <a href="index.php?code=Orient">Orient</a>
             </ul>
         </div>
     </header>

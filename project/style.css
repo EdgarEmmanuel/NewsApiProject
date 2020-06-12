@@ -24,8 +24,14 @@ header .row ul a{
     margin:0 24px;
     text-decoration: none;
     font-size:22px;
-    color:white;
+    color:black;
     font-weight: bold;
+}
+
+header .row ul a:hover{
+    background:black;
+    border-radius:10px;
+    color:white;
 }
 
 /* end header */
