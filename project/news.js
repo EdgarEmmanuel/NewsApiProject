@@ -1,4 +1,6 @@
 
+// for the side nav
+
 let btn = $(".btn");
 
 let menu =$(".menu");
@@ -13,6 +15,7 @@ $(btn).click((e)=>{
     }
 });
 
+// end side nav
 
 class UI{
     static getNews(atr){
@@ -33,7 +36,6 @@ class UI{
                 .html(
             `<a href="${el.url}" target="_blank"><img src="${el.urlToImage}" alt=""></a><br>
             <p>${ el.content }</p>`);
-                //$(id).show(2000);
                 $('body').append(id);
             });  
            }
@@ -44,7 +46,6 @@ class UI{
 let a = $(".menu ul li .api");
 
 a.click((e)=>{
-    sessionStorage.clear();
     e.preventDefault();
     var atr = $(e.target).attr("id");
     console.log(atr);
@@ -52,7 +53,7 @@ a.click((e)=>{
     location.reload();
     console.log(sessionStorage.getItem("val"));
 });
+
 $(document).on('reload',UI.getNews(sessionStorage.getItem("val")));
 
-//sessionStorage.clear();
 

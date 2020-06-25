@@ -12,7 +12,7 @@ $title = "ASIE | NEWS "
 
 <div class="menu">
     <ul>
-        <li> <a id="ph" href="">Philippines </a> </li>
+        <li> <a id="ph" class="api" href="">Philippines </a> </li>
         <li><a id="my" href="">Malaisie </a></li>
         <li><a id="id" href="">Indonesie</a></li>
         <li><a id="cn" href="">Chine</a></li>
