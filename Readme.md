@@ -1,1 +1,10 @@
-<h1>NEWS PROJECT WITH NEWS API</h1><br><h1>HTML JAVASCRIPT AJAX PHP CSS</h1>
+# :red_circle: NEWS PROJECT WITH NEWS API :red_circle:
+### HTML 
+### JAVASCRIPT 
+### AJAX 
+### PHP
+### CSS
+
+___
+
+> Emmanuel Edgar 

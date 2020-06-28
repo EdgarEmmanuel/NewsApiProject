@@ -13,15 +13,15 @@ $title = "ASIE | NEWS "
 <div class="menu">
     <ul>
         <li> <a id="ph" class="api" href="">Philippines </a> </li>
-        <li><a id="my" href="">Malaisie </a></li>
-        <li><a id="id" href="">Indonesie</a></li>
-        <li><a id="cn" href="">Chine</a></li>
-        <li><a id="hk" href="">Honk-Kong</a></li>
-        <li><a id="in" href="">India</a></li>
-        <li><a id="tw" href="">Taiwan</a></li>
-        <li><a id="sg" href="">Singapour</a></li>
-        <li><a id="kr" href="">Coree du Sud</a></li>
-        <li><a id="jp" href="">Japon</a></li>
+        <li><a id="my" class="api" href="">Malaisie </a></li>
+        <li><a id="id" class="api" href="">Indonesie</a></li>
+        <li><a id="cn" class="api" href="">Chine</a></li>
+        <li><a id="hk" class="api" href="">Honk-Kong</a></li>
+        <li><a id="in" class="api" href="">India</a></li>
+        <li><a id="tw" class="api" href="">Taiwan</a></li>
+        <li><a id="sg" class="api" href="">Singapour</a></li>
+        <li><a id="kr" class="api" href="">Coree du Sud</a></li>
+        <li><a id="jp" class="api" href="">Japon</a></li>
     </ul>
 </div>
 
