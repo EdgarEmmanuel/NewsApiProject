@@ -15,12 +15,12 @@ $title = "AMERIQUE | NEWS ";
        <ul>
        <li>  </li>
           <li> <a id="bg" class="api" href="">Etats-Unis </a> </li>
-           <li><a id="br" href="">Bresil </a></li>
-           <li> <a id="ar" href="">Argentine </a> </li>
-           <li><a id="mx" href="">Mexique </a></li>
-           <li><a id="cu" href="">Cuba</a></li>
-           <li><a id="co" href="">Colombie</a></li>
-           <li><a id="au" href="">Australie</a></li>
+           <li><a id="br" class="api" href="">Bresil </a></li>
+           <li> <a id="ar" class="api" href="">Argentine </a> </li>
+           <li><a id="mx" class="api" href="">Mexique </a></li>
+           <li><a id="cu" class="api" href="">Cuba</a></li>
+           <li><a id="co" class="api" href="">Colombie</a></li>
+           <li><a id="au" class="api" href="">Australie</a></li>
        </ul>
    </div>
 

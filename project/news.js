@@ -46,14 +46,20 @@ class UI{
 let a = $(".menu ul li .api");
 
 a.click((e)=>{
+    //prevenir l'exception
     e.preventDefault();
+
+    //recuperer la valeur qui se trouve trouve dans l'attribut ID
     var atr = $(e.target).attr("id");
-    console.log(atr);
+
+    //mettre en session
      sessionStorage.setItem("val",atr);
+
+     //reload the page
     location.reload();
-    console.log(sessionStorage.getItem("val"));
 });
 
+//on reload event
 $(document).on('reload',UI.getNews(sessionStorage.getItem("val")));
 
 

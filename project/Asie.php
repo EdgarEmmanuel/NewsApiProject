@@ -6,8 +6,6 @@ $title = "ASIE | NEWS "
 ?>
 
 <!-- menu  -->
-
-
 <button class="btn"> <i class="fa fa-bars fa-4x" aria-hidden="true"></i> </button>
 
 <div class="menu">
