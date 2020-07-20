@@ -11,9 +11,9 @@ $title = "ORIENT | NEWS "
 
 <div class="menu">
     <ul>
-        <li> <a id="il" href="">Israel</a> </li>
-        <li><a id="sa" href="">Arabie-Saoudite </a></li>
-        <li><a id="ae" href="">Emirats Arabes Unis</a></li>
+        <li> <a id="il" class="api" href="">Israel</a> </li>
+        <li><a id="sa" class="api" href="">Arabie-Saoudite </a></li>
+        <li><a id="ae" class="api" href="">Emirats Arabes Unis</a></li>
     </ul>
 </div>
 
