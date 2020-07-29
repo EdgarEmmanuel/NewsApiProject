@@ -1,9 +1,24 @@
 <?php
 
-//appel controller 
-include_once("News_Controller.php");
 
-$contrrol = new News_Controler();
+// POUR STYLE
+define("WEBROOT",str_replace("index.php","",$_SERVER['SCRIPT_NAME']));
+define("SRC_PUBLIC_CSS",WEBROOT."CSS");
+define("SRC_PUBLIC_JS",WEBROOT."JS");
+
+// POUR DOSSIER controllers , views and Models.
+define("ROOT",str_replace("index.php","",$_SERVER['SCRIPT_FILENAME']));
+define("SRC_VIEWS",ROOT."views");
+define("SRC_CONTROLLER",ROOT."controller");
+
+
+//appel controller 
+include_once(SRC_CONTROLLER."/News_Controller.php");
+include_once(SRC_CONTROLLER."/Sport_Controller.php");
+
+$contrrol = new News_Controller();
+
+$control_sport = new Sport_Controller();
 
 
 if(isset($_GET["code"])){
@@ -23,6 +38,10 @@ if(isset($_GET["code"])){
         break;
         case "Orient": 
             $contrrol->getPageOrient();
+        break;
+
+        case "sport" : 
+            $control_sport->getPageSportDef();
         break;
     }
 }else{

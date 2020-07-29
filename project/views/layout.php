@@ -18,7 +18,7 @@
                 <a href="">Entertainment </a>
                 <a href="">Health</a>
                 <a href="">Science</a>
-                <a href="">Sports</a>
+                <a href="index.php?code=sport">Sports</a>
                 <a href="">Technology</a>
             </ul>
             <ul>
