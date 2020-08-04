@@ -1,0 +1,44 @@
+
+.menu{
+    display:none;
+    background: #F9C6B8;
+    width:10rem;
+    position:fixed;
+    right:1rem;
+    margin-top: 100px;
+    text-align: center;
+    z-index:3;
+    padding: 10px 10px;
+    top:-1rem;
+}
+
+.btn:focus{
+    outline:0px;
+}
+
+
+.btn{
+    position:fixed;
+    right:6rem;
+    z-index:4;
+    border:none;
+    background:transparent;
+    cursor: pointer;
+    background:#F9C6B8;
+    color:white;
+    top:2rem;
+}
+.menu ul{
+    text-align: center;
+}
+
+.menu ul li{
+    list-style-type: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}

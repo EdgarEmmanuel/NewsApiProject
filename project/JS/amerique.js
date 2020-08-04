@@ -36,11 +36,12 @@ class UI{
                 .html(
             `<a href="${el.url}" target="_blank"><img src="${el.urlToImage}" alt=""></a><br>
             <p>${ el.content }</p>`);
-                $('body').append(id);
+                $(".data").append(id);
             });  
            }
        });
     }
+
 }
 
 let a = $(".menu ul li .api");
@@ -57,6 +58,7 @@ a.click((e)=>{
 
      //reload the page
     location.reload();
+    //UI.getNews(sessionStorage.getItem("val"))
 });
 
 //on reload event

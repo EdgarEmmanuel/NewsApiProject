@@ -1,6 +1,9 @@
 <?php ob_start();
 
-$title = "ASIE | NEWS "
+$title = "ASIE | NEWS ";
+
+
+$css = SRC_PUBLIC_CSS."/menu_general.css";
 
 
 ?>
@@ -31,7 +34,9 @@ $title = "ASIE | NEWS "
 
 <?php 
 
-$content =ob_get_clean();
-require_once("layout.php");
+$js = SRC_PUBLIC_JS."/asie.js";
+
+$data =ob_get_clean();
+require_once("accueil.php");
 
 ?>

@@ -9,6 +9,10 @@
     overflow-x: hidden;
 }
 
+body{
+    margin:0;
+}
+
 header{
     background:linear-gradient(35deg,#B8EBF9,#F9C6B8);
     height: 3rem;

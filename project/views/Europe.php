@@ -1,6 +1,9 @@
 <?php ob_start();
 
-$title = "EUROPE | NEWS "
+$title = "EUROPE | NEWS ";
+
+
+$css = SRC_PUBLIC_CSS."/menu_general.css";
 
 
 ?>
@@ -43,8 +46,10 @@ $title = "EUROPE | NEWS "
 
 
 <?php 
+$js = SRC_PUBLIC_JS."/europe.js";
 
-$content =ob_get_clean();
-require_once("layout.php");
+
+$data =ob_get_clean();
+require_once("accueil.php");
 
 ?>

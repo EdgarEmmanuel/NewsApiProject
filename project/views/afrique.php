@@ -1,14 +1,13 @@
 <?php ob_start();
 
-$title = "AFRIQUE | NEWS "
+$title = "AFRIQUE | NEWS ";
 
-
+$css = SRC_PUBLIC_CSS."/menu_general.css";
 ?>
 
 
 
 <!-- menu  -->
-
 
 <button class="btn"> <i class="fa fa-bars fa-4x" aria-hidden="true"></i> </button>
 
@@ -31,7 +30,9 @@ $title = "AFRIQUE | NEWS "
 
 <?php 
 
-$content=ob_get_clean();
-require_once("layout.php");
+$js = SRC_PUBLIC_JS."/afrique.js";
+
+$data=ob_get_clean();
+require_once("accueil.php");
 
 ?>

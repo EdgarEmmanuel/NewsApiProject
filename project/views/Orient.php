@@ -1,6 +1,8 @@
 <?php ob_start();
 
-$title = "ORIENT | NEWS "
+$title = "ORIENT | NEWS ";
+
+$css = SRC_PUBLIC_CSS."/menu_general.css";
 
 ?>
 
@@ -25,7 +27,9 @@ $title = "ORIENT | NEWS "
 
 <?php 
 
-$content =ob_get_clean();
-require_once("layout.php");
+$js = SRC_PUBLIC_JS."/orient.js";
+
+$data =ob_get_clean();
+require_once("accueil.php");
 
 ?>
