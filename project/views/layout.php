@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="<?=SRC_IMG."/favicon.ico"?>" type="image/x-icon">
+    <link rel="icon" href="<?=SRC_IMG."/favicon.ico"?>" type="image/x-icon">
     <link rel="stylesheet" href="<?= $css ?>">
     <title><?= $title ?></title>
 </head>
